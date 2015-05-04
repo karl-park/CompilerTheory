@@ -1,0 +1,42 @@
+program sample2
+begin
+	double balance;
+	integer penalty;
+	balance = nextDouble();
+	penalty = nextInteger();
+	if (balance >= 0)
+            balance = balance + (0.05 * balance)/12;
+        else
+            balance = balance - penalty;
+	penalty--;
+	print(��The result of the first arithmetic calculation is ��);
+	print_line(result);
+end
+
+
+begin_ = 25,
+		double_= 26,
+		else_= 27,
+		end_= 28,
+		eof=29,
+		if_= 30,
+		integer_= 31,
+		new_= 32,
+		nextDouble_= 33,
+		nextInteger_= 34,
+		nextLine_= 35,
+		print_= 36,
+		print_line_= 37,
+		program_= 38,
+		string_= 39,
+		while_= 40,
+		
+		increment_ = 41,
+		decrement_ = 42,
+		err = -1;
+		
+		
+		
+		"begin", "double", "else", "end", "if", "integer",
+		"new", "nextDouble","nextInteger","nextLine","print", "print_line",
+		"program", "string", "while"

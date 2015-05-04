@@ -1,0 +1,10 @@
+program sample4
+begin
+integer countDown;
+        for (countDown = 3; countDown >= 0; countDown--)
+        begin
+            print_line(countDown);
+            print_line("and counting.");
+        end
+        print_line("Blast off!");
+end

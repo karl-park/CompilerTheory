@@ -1,0 +1,17 @@
+program sample1
+begin
+	string sentence = "Peace!"; //this is comment
+	double radius, area = 0;
+	integer a=5, b=6, c=7, d=8, e, result;
+	radius = nextDouble();
+	area = 3.14159 * radius * radius;
+	e = nextInteger();
+	print_line(sentence); //print one line
+	print("A circle of radius "); print(radius); print_line(area);
+	nextLine(sentence);
+	print_line(sentence);
+
+	result = (a + b) * (c/3) ? (d + 9);
+	print(��The result of the first arithmetic calculation is ��);
+	print_line(result);
+end

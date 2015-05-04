@@ -1,0 +1,14 @@
+program sample3
+begin
+integer count, number;
+        print_line("Enter a number");
+	number = nextInteger( );
+        count = 1;
+        while (count <= number)
+        begin
+            print(count);
+            count++;
+        end
+        print_line();
+        print_line("Buckle my shoe.");
+end
